@@ -1,0 +1,3 @@
+C:/Users/dvinc/CLionProjects/Ripetizioni-Alice/cmake-build-debug/CMakeFiles/Ripetizioni_Alice.dir
+C:/Users/dvinc/CLionProjects/Ripetizioni-Alice/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dvinc/CLionProjects/Ripetizioni-Alice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
