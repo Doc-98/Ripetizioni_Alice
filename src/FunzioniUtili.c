@@ -57,6 +57,7 @@ void insertionSort(int arr[], int size) {
     }
 }
 
+//* Questa funzione inverte l'ordine degli elementi di un vettore di interi, riceve come parametri il vettore da invertire e la sua grandezza
 void arrayInverter(int arr[], int size) {
     int temp;
     for (int i = 0; i < size/2; i++) {
@@ -83,4 +84,5 @@ int main() {
     printIntArray(arr, size);
 
     return 0;
+
 }
