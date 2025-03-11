@@ -79,6 +79,12 @@ build CMakeFiles/Ripetizioni_Alice.dir/src/FunzioniUtili.c.obj: C_COMPILER__Ripe
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
   OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src
 
+build CMakeFiles/Ripetizioni_Alice.dir/src/InvesioneVettore.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/InvesioneVettore.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\InvesioneVettore.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target Ripetizioni_Alice
@@ -87,7 +93,7 @@ build CMakeFiles/Ripetizioni_Alice.dir/src/FunzioniUtili.c.obj: C_COMPILER__Ripe
 #############################################
 # Link the static library libRipetizioni_Alice.a
 
-build libRipetizioni_Alice.a: C_STATIC_LIBRARY_LINKER__Ripetizioni_Alice_Debug CMakeFiles/Ripetizioni_Alice.dir/library.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/selectionSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/bubbleSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/insertionSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/FunzioniUtili.c.obj
+build libRipetizioni_Alice.a: C_STATIC_LIBRARY_LINKER__Ripetizioni_Alice_Debug CMakeFiles/Ripetizioni_Alice.dir/library.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/selectionSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/bubbleSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/insertionSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/FunzioniUtili.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/InvesioneVettore.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
   POST_BUILD = cd .
