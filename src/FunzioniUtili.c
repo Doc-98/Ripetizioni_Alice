@@ -2,6 +2,8 @@
 // Created by dvinc on 3/9/2025.
 //
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 //* Funzione che riceve un array di interi e la sua lunghezza come parametri e stampa il vettore su stdio
 void printIntArray(int arr[], int size) {
@@ -67,12 +69,24 @@ void arrayInverter(int arr[], int size) {
     }
 }
 
+//* Questa funzione sovrascrive qualsiasi vettore di interi che viene passato come parametro, inserendo nuovi numeri casuali che vanno da 1 a 100
+void populateRandomArray(int arr[], int size) {
+    srand(time(0));
+    for (int i = 0; i < size; i++) {
+        arr[i] = rand() % 100 + 1;
+    }
+}
+
 int main() {
 
     int arr[] = {7, 2, 10, 6, 8, 3, 9, 5, 1, 4};
     int size = sizeof(arr) / sizeof(arr[0]);
 
     printf("Vettore iniziale: ");
+    printIntArray(arr, size);
+
+    populateRandomArray(arr, size);
+    printf("Vettore randomizzato: ");
     printIntArray(arr, size);
 
     bubbleSort(arr, size);

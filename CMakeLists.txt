@@ -8,4 +8,7 @@ add_library(Ripetizioni_Alice STATIC library.c
         src/bubbleSort.c
         src/insertionSort.c
         src/FunzioniUtili.c
-        src/InvesioneVettore.c)
+        src/InvesioneVettore.c
+        src/IMC.c
+        src/Sperimentiamo.c
+        src/Esercizio1.c)
