@@ -14,29 +14,29 @@
 
 int main() {
 
-    // Dichiarare le variabili necessarie
+    //* Dichiarare le variabili necessarie
     int arr[50], size, temp;
 
-    // Richiedo il numero di elementi del vettore e salvo il valore nella variabile size
+    //* Richiedo il numero di elementi del vettore e salvo il valore nella variabile size
     printf("Inserire il numero di elementi contenuti nel vettore:\n");
     scanf("%d", &size);
 
-    // Richiedo di inserire i numeri contenuti nel vettore e li ottengo e salvo tramite una scanf inserita in un ciclo for
-    // Il ciclo viene eseguito un numero di volte pari "size"
-    // Ovviamente uso la i come indice per salvare ogni volta il numero ottenuto in una posizione diversa
+    //* Richiedo di inserire i numeri contenuti nel vettore e li ottengo e salvo tramite una scanf inserita in un ciclo for
+    //* Il ciclo viene eseguito un numero di volte pari "size"
+    //* Ovviamente uso la i come indice per salvare ogni volta il numero ottenuto in una posizione diversa
     printf("Inserire i numeri contenuti nel vettore:\n");
     for (int i = 0; i < size; i++) {
         scanf("%d", &arr[i]);
     }
 
-    // Stampo il vettore ottenuto separando i numeri in modo che siano facilmente leggibili
+    //* Stampo il vettore ottenuto separando i numeri in modo che siano facilmente leggibili
     printf("\nIl vettore inserito è il seguente:\n");
     for (int i = 0; i < size; i++) {
         printf("~ %d ", arr[i]);
     }
     printf("~\n");
 
-    // Uso il bubble sort per ordinare il vettore
+    //* Uso il bubble sort per ordinare il vettore
     for (int i = 1; i < size; i++) {
         for (int j = 0; j < size - i; j++) {
             if (arr[j] > arr[j + 1]) {
@@ -47,7 +47,7 @@ int main() {
         }
     }
 
-    // Stampo il vettore ordinato
+    //* Stampo il vettore ordinato
     printf("\nIl vettore è stato ordinato:\n");
     for (int i = 0; i < size; i++) {
         printf("~ %d ", arr[i]);

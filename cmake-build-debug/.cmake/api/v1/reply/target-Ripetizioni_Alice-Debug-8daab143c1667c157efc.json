@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -58,7 +58,9 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9,
+				10
 			]
 		}
 	],
@@ -84,7 +86,9 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9,
+				10
 			]
 		}
 	],
@@ -93,55 +97,67 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "library.c",
+			"path" : "src/Ordinamento_Vettori/selectionSort.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/selectionSort.c",
+			"path" : "src/Ordinamento_Vettori/bubbleSort.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/bubbleSort.c",
+			"path" : "src/Ordinamento_Vettori/insertionSort.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/insertionSort.c",
+			"path" : "src/Ordinamento_Vettori/FunzioniUtili_Vettori.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/FunzioniUtili.c",
+			"path" : "src/Ordinamento_Vettori/InvesioneVettore.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/InvesioneVettore.c",
+			"path" : "src/Puntatori_E_File/SperimentiamoPuntatori.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/IMC.c",
+			"path" : "src/Ordinamento_Vettori/Esercizi/Riordina_Vettore_Soluzione.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Sperimentiamo.c",
+			"path" : "src/Ordinamento_Vettori/Esercizi/Riordina_Vettore.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Esercizio1.c",
+			"path" : "src/Puntatori_E_File/Esercizi/File_1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Puntatori_E_File/Esercizi/Puntatori_E_Funzioni.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Puntatori_E_File/Esercizi/Teoria_Puntatori_Soluzione.c",
 			"sourceGroupIndex" : 0
 		}
 	],

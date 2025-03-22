@@ -3,6 +3,7 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <time.h>
 
 //* Funzione che riceve un array di interi e la sua lunghezza come parametri e stampa il vettore su stdio
@@ -77,26 +78,65 @@ void populateRandomArray(int arr[], int size) {
     }
 }
 
+void stringInverter(char arr[], int size) {
+    char temp;
+    for (int i = 0; i < size/2; i++) {
+        temp = arr[i];
+        arr[i] = arr[size - i - 1];
+        arr[size - i - 1] = temp;
+    }
+}
+
 int main() {
 
-    int arr[] = {7, 2, 10, 6, 8, 3, 9, 5, 1, 4};
-    int size = sizeof(arr) / sizeof(arr[0]);
+    char str[] = "Hello World!";
+    int size = sizeof(str) / sizeof(str[0]) - 1;
 
-    printf("Vettore iniziale: ");
-    printIntArray(arr, size);
+    printf("%s\n", str);
 
-    populateRandomArray(arr, size);
-    printf("Vettore randomizzato: ");
-    printIntArray(arr, size);
 
-    bubbleSort(arr, size);
-    printf("Vettore ordinato: ");
-    printIntArray(arr, size);
+    /* int temp;
+    for (int i = 0; i < size/2; i++) {
+        temp = arr[i];
+        arr[i] = arr[size - i - 1];
+        arr[size - i - 1] = temp;
+    }*/
 
-    arrayInverter(arr, size);
-    printf("Vettore invertito: ");
-    printIntArray(arr, size);
+    char temp;
+    for (int i = 0; i < size/2; i++) {
+        temp = str[i];
+        str[i] = str[size - i - 1];
+        str[size - i - 1] = temp;
+    }
+
+
+    printf("%s\n", str);
 
     return 0;
-
 }
+
+
+
+// int main() {
+//
+//     int arr[] = {7, 2, 10, 6, 8, 3, 9, 5, 1, 4};
+//     int size = sizeof(arr) / sizeof(arr[0]);
+//
+//     printf("Vettore iniziale: ");
+//     printIntArray(arr, size);
+//
+//     populateRandomArray(arr, size);
+//     printf("Vettore randomizzato: ");
+//     printIntArray(arr, size);
+//
+//     bubbleSort(arr, size);
+//     printf("Vettore ordinato: ");
+//     printIntArray(arr, size);
+//
+//     arrayInverter(arr, size);
+//     printf("Vettore invertito: ");
+//     printIntArray(arr, size);
+//
+//     return 0;
+//
+// }

@@ -49,59 +49,71 @@ cmake_ninja_workdir = C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/cmake-buil
 
 build cmake_object_order_depends_target_Ripetizioni_Alice: phony || .
 
-build CMakeFiles/Ripetizioni_Alice.dir/library.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/library.c || cmake_object_order_depends_target_Ripetizioni_Alice
-  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\library.c.obj.d
+build CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/selectionSort.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Ordinamento_Vettori/selectionSort.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori\selectionSort.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori
 
-build CMakeFiles/Ripetizioni_Alice.dir/src/selectionSort.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/selectionSort.c || cmake_object_order_depends_target_Ripetizioni_Alice
-  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\selectionSort.c.obj.d
+build CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/bubbleSort.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Ordinamento_Vettori/bubbleSort.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori\bubbleSort.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori
 
-build CMakeFiles/Ripetizioni_Alice.dir/src/bubbleSort.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/bubbleSort.c || cmake_object_order_depends_target_Ripetizioni_Alice
-  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\bubbleSort.c.obj.d
+build CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/insertionSort.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Ordinamento_Vettori/insertionSort.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori\insertionSort.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori
 
-build CMakeFiles/Ripetizioni_Alice.dir/src/insertionSort.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/insertionSort.c || cmake_object_order_depends_target_Ripetizioni_Alice
-  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\insertionSort.c.obj.d
+build CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/FunzioniUtili_Vettori.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Ordinamento_Vettori/FunzioniUtili_Vettori.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori\FunzioniUtili_Vettori.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori
 
-build CMakeFiles/Ripetizioni_Alice.dir/src/FunzioniUtili.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/FunzioniUtili.c || cmake_object_order_depends_target_Ripetizioni_Alice
-  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\FunzioniUtili.c.obj.d
+build CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/InvesioneVettore.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Ordinamento_Vettori/InvesioneVettore.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori\InvesioneVettore.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori
 
-build CMakeFiles/Ripetizioni_Alice.dir/src/InvesioneVettore.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/InvesioneVettore.c || cmake_object_order_depends_target_Ripetizioni_Alice
-  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\InvesioneVettore.c.obj.d
+build CMakeFiles/Ripetizioni_Alice.dir/src/Puntatori_E_File/SperimentiamoPuntatori.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Puntatori_E_File/SperimentiamoPuntatori.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Puntatori_E_File\SperimentiamoPuntatori.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src\Puntatori_E_File
 
-build CMakeFiles/Ripetizioni_Alice.dir/src/IMC.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/IMC.c || cmake_object_order_depends_target_Ripetizioni_Alice
-  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\IMC.c.obj.d
+build CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/Esercizi/Riordina_Vettore_Soluzione.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Ordinamento_Vettori/Esercizi/Riordina_Vettore_Soluzione.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori\Esercizi\Riordina_Vettore_Soluzione.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori\Esercizi
 
-build CMakeFiles/Ripetizioni_Alice.dir/src/Sperimentiamo.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Sperimentiamo.c || cmake_object_order_depends_target_Ripetizioni_Alice
-  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Sperimentiamo.c.obj.d
+build CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/Esercizi/Riordina_Vettore.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Ordinamento_Vettori/Esercizi/Riordina_Vettore.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori\Esercizi\Riordina_Vettore.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src\Ordinamento_Vettori\Esercizi
 
-build CMakeFiles/Ripetizioni_Alice.dir/src/Esercizio1.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Esercizio1.c || cmake_object_order_depends_target_Ripetizioni_Alice
-  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Esercizio1.c.obj.d
+build CMakeFiles/Ripetizioni_Alice.dir/src/Puntatori_E_File/Esercizi/File_1.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Puntatori_E_File/Esercizi/File_1.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Puntatori_E_File\Esercizi\File_1.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src\Puntatori_E_File\Esercizi
+
+build CMakeFiles/Ripetizioni_Alice.dir/src/Puntatori_E_File/Esercizi/Puntatori_E_Funzioni.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Puntatori_E_File/Esercizi/Puntatori_E_Funzioni.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Puntatori_E_File\Esercizi\Puntatori_E_Funzioni.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src\Puntatori_E_File\Esercizi
+
+build CMakeFiles/Ripetizioni_Alice.dir/src/Puntatori_E_File/Esercizi/Teoria_Puntatori_Soluzione.c.obj: C_COMPILER__Ripetizioni_Alice_unscanned_Debug C$:/Users/dvinc/CLionProjects/Ripetizioni-Alice/src/Puntatori_E_File/Esercizi/Teoria_Puntatori_Soluzione.c || cmake_object_order_depends_target_Ripetizioni_Alice
+  DEP_FILE = CMakeFiles\Ripetizioni_Alice.dir\src\Puntatori_E_File\Esercizi\Teoria_Puntatori_Soluzione.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ripetizioni_Alice.dir\src\Puntatori_E_File\Esercizi
 
 
 # =============================================================================
@@ -111,7 +123,7 @@ build CMakeFiles/Ripetizioni_Alice.dir/src/Esercizio1.c.obj: C_COMPILER__Ripetiz
 #############################################
 # Link the static library libRipetizioni_Alice.a
 
-build libRipetizioni_Alice.a: C_STATIC_LIBRARY_LINKER__Ripetizioni_Alice_Debug CMakeFiles/Ripetizioni_Alice.dir/library.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/selectionSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/bubbleSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/insertionSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/FunzioniUtili.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/InvesioneVettore.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/IMC.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Sperimentiamo.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Esercizio1.c.obj
+build libRipetizioni_Alice.a: C_STATIC_LIBRARY_LINKER__Ripetizioni_Alice_Debug CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/selectionSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/bubbleSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/insertionSort.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/FunzioniUtili_Vettori.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/InvesioneVettore.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Puntatori_E_File/SperimentiamoPuntatori.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/Esercizi/Riordina_Vettore_Soluzione.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Ordinamento_Vettori/Esercizi/Riordina_Vettore.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Puntatori_E_File/Esercizi/File_1.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Puntatori_E_File/Esercizi/Puntatori_E_Funzioni.c.obj CMakeFiles/Ripetizioni_Alice.dir/src/Puntatori_E_File/Esercizi/Teoria_Puntatori_Soluzione.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\Ripetizioni_Alice.dir
   POST_BUILD = cd .
