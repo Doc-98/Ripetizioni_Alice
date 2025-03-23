@@ -16,4 +16,6 @@ add_library(Ripetizioni_Alice STATIC
         src/Ordinamento_Vettori/Esercizi/Riordina_Vettore.c
         src/Puntatori_E_File/Esercizi/File_1.c
         src/Puntatori_E_File/Esercizi/Puntatori_E_Funzioni.c
-        src/Puntatori_E_File/Esercizi/Teoria_Puntatori_Soluzione.c)
+        src/Puntatori_E_File/Esercizi/Teoria_Puntatori_Soluzione.c
+        src/Puntatori_E_File/Esercizi/File_2.c
+        src/Puntatori_E_File/Esercizi/File_3.c)

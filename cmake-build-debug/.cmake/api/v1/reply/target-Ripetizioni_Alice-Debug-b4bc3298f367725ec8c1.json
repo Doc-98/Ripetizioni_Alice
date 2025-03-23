@@ -60,7 +60,9 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				11,
+				12
 			]
 		}
 	],
@@ -88,7 +90,9 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				11,
+				12
 			]
 		}
 	],
@@ -158,6 +162,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/Puntatori_E_File/Esercizi/Teoria_Puntatori_Soluzione.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Puntatori_E_File/Esercizi/File_2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Puntatori_E_File/Esercizi/File_3.c",
 			"sourceGroupIndex" : 0
 		}
 	],
