@@ -18,4 +18,6 @@ add_library(Ripetizioni_Alice STATIC
         src/Puntatori_E_File/Esercizi/Puntatori_E_Funzioni.c
         src/Puntatori_E_File/Esercizi/Teoria_Puntatori_Soluzione.c
         src/Puntatori_E_File/Esercizi/File_2.c
-        src/Puntatori_E_File/Esercizi/File_3.c)
+        src/Puntatori_E_File/Esercizi/File_3.c
+        src/Testing.c
+        src/Puntatori_E_File/Esercizi/Nomi_E_Cognomi.c)
