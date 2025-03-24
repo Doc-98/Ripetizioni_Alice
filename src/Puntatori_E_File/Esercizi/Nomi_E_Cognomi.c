@@ -2,12 +2,12 @@
 // Created by dvinc on 3/24/2025.
 //
 
-#define LEN_NAME_MAX 20
+#define LEN_NAME_MAX 30
 
 #include <stdio.h>
 
-
 int originale() {
+
     FILE *file;
     int num, i;
     char nome[4];
@@ -58,7 +58,6 @@ int main() {
 
     // Ottengo il numero di persone da memorizzare
     printf("inserisci il numero di persone: ");
-    fflush(stdin);
     scanf("%d", &num);
     fflush(stdin);
 
